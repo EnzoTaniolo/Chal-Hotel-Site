@@ -1,0 +1,131 @@
+/*formatacoes site*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+
+
+#container{
+    background: url(../imagens/bg-container.png);
+    max-width: 1180px;
+    margin:0 auto;
+    min-width: 740px;
+}
+/*formatacoes site*/
+
+/*formatacoes topo*/
+
+#topo{
+    height: 15.4em;
+    position: relative;
+    min-height: 250px;
+}
+
+.logo a {
+    position: absolute;
+    top: 15;
+    left: 15;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+
+#area-logo{
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+#area-menu{
+    background: url(../imagens/topo-imagem-lateral.png);
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 2
+}
+
+#conteudo-menu{
+    margin-left: 90px;
+    padding-top: 15px;
+    margin-right:15px;
+}
+
+#menu-locais{
+    border-top: 1px solid #b5ab56 ;
+    border-bottom: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: #8b8448;
+    
+}
+
+#menu-locais a{
+    color: #fff7ad;
+    background:#8a7e12;
+    padding: 5px;
+    font-size: 1.5em;
+    text-decoration: none;
+    float: right;
+}
+
+#locais{
+    float: left;
+}
+
+#menu-locais #locais{
+    line-height: 2.5em;
+}
+
+#menu{
+    margin-top: 15px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li {
+    padding: 5px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #8a7e12;
+    padding: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+#menu ul li a:hover{
+   background: #fff7ad;
+}
+
+.imagem{
+    float: right;
+    width: 226px;
+    height: 164px;
+} 
+
+ul#navega{
+    float: left;
+}
+/*formatacoes topo*/
+
+
+
+
