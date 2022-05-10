@@ -12,7 +12,7 @@ body{
 
 
 #container{
-    background: url(../imagens/bg-container.png);
+    background: url(../imagens/bg-container.png) top center repeat-y;
     max-width: 1180px;
     margin:0 auto;
     min-width: 740px;
@@ -109,6 +109,7 @@ body{
     padding: 5px;
     font-size: 0.9em;
     text-transform: uppercase;
+    line-height: 15px;
 }
 
 #menu ul li a:hover{
@@ -126,6 +127,83 @@ ul#navega{
 }
 /*formatacoes topo*/
 
+/*formatacoes area principal e lateral*/
 
+#area-principal{
+    background: url(../imagens/bg-area-principal.png) repeat-x;
+    float: left;
+    width: 50%;
+    padding:20px 0;
+}
 
+#area-lateral{
+    background: url(../imagens/bg-area-lateral.png) repeat-x;
+    float: right;
+    width: 50%;
+    padding:20px 0;
+}
 
+.conteudo{
+    width: 90%;
+    margin: 10px auto;
+}
+
+#rodape{
+    clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+/*formatacoes area principal e lateral*/
+
+/*formatacoes area lateral*/
+
+#beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+    list-style: none;
+    
+}
+
+#beneficios li a img{
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficios li a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#beneficios li a p{
+    color:black;
+}
+
+#beneficios li a h3{
+    color: #8b8448;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+/*formatacoes area lateral*/
+
+/*formatacoes de texto*/
+
+P{
+    padding-top: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+h2{
+    color:#8b8448 ;
+    font-size: 1.1em;
+}
+
+/*formatacoes de texto*/
